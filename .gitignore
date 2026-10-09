@@ -1,0 +1,42 @@
+﻿# Data
+data/
+!data/pdfs/
+!data/eval/questions.json
+!data/eval/plots/
+
+# Models & Cache
+.huggingface/
+__pycache__/
+*.pyc
+*.pt
+*.bin
+~/.cache/huggingface/
+~/.cache/torch/
+
+# Models & Cache
+.huggingface/
+__pycache__/
+*.pyc
+*.pt
+*.bin
+
+# Virtual env
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp
+tmp/
+
+# Jupyter
+.ipynb_checkpoints/

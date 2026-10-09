@@ -1,0 +1,482 @@
+[
+  {
+    "id": "q001",
+    "question": "According to Table 2, what BLEU score did the Transformer achieve on WMT 2014 English-to-German translation?",
+    "doc": "paper1",
+    "gold_page": 8,
+    "type": "table",
+    "split": "test"
+  },
+  {
+    "id": "q002",
+    "question": "How many parallel attention heads does the base Transformer model use?",
+    "doc": "paper1",
+    "gold_page": 5,
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q003",
+    "question": "What is the formula for scaled dot-product attention?",
+    "doc": "paper1",
+    "gold_page": 4,
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q004",
+    "question": "Which figure illustrates the overall architecture of the Transformer?",
+    "doc": "paper1",
+    "gold_page": 3,
+    "type": "chart",
+    "split": "test"
+  },
+  {
+    "id": "q005",
+    "question": "What is the maximum path length of a self-attention layer compared with a recurrent layer?",
+    "doc": "paper1",
+    "gold_page": 6,
+    "type": "table",
+    "split": "test"
+  },
+  {
+    "question": "In the earliest approaches that later get adapted to a supervised task, which single component was learned from raw text beforehand?",
+    "doc": "BERT_paper01",
+    "gold_page": 2,
+    "type": "scanned",
+    "id": "q006",
+    "split": "test"
+  },
+  {
+    "question": "In the overview illustration, which output label sits at the far left above the pre-training stack?",
+    "doc": "BERT_paper01",
+    "gold_page": 3,
+    "type": "scanned",
+    "id": "q007",
+    "split": "test"
+  },
+  {
+    "question": "How many token-prediction output heads are drawn above the encoder in the pre-training half of the overview illustration?",
+    "doc": "BERT_paper01",
+    "gold_page": 3,
+    "type": "scanned",
+    "id": "q008",
+    "split": "test"
+  },
+  {
+    "question": "What caption appears under the blue arrow at the bottom of the pre-training half of the overview illustration?",
+    "doc": "BERT_paper01",
+    "gold_page": 3,
+    "type": "scanned",
+    "id": "q009",
+    "split": "test"
+  },
+  {
+    "question": "How many distinct subword units does the vocabulary used to tokenize BERT's input contain?",
+    "doc": "BERT_paper01",
+    "gold_page": 4,
+    "type": "scanned",
+    "id": "q010",
+    "split": "test"
+  },
+  {
+    "question": "Why can't an ordinary language model simply condition on both directions at once while training a multi-layer network?",
+    "doc": "BERT_paper01",
+    "gold_page": 4,
+    "type": "scanned",
+    "id": "q011",
+    "split": "dev"
+  },
+  {
+    "question": "In the input-construction example, how many tokens are tagged with the second-sentence segment marker?",
+    "doc": "BERT_paper01",
+    "gold_page": 5,
+    "type": "scanned",
+    "id": "q012",
+    "split": "test"
+  },
+  {
+    "question": "In the input-construction example, what position index is given to the final token?",
+    "doc": "BERT_paper01",
+    "gold_page": 5,
+    "type": "scanned",
+    "id": "q013",
+    "split": "dev"
+  },
+  {
+    "question": "In the input-construction example, which element is a word fragment split off from a preceding whole word?",
+    "doc": "BERT_paper01",
+    "gold_page": 5,
+    "type": "scanned",
+    "id": "q014",
+    "split": "test"
+  },
+  {
+    "question": "What difficulty on small datasets led the authors to repeat training several times with the larger model and keep the best one?",
+    "doc": "BERT_paper01",
+    "gold_page": 6,
+    "type": "scanned",
+    "id": "q015",
+    "split": "test"
+  },
+  {
+    "question": "How does the system represent a question that has no answer in the passage when extending the span-prediction approach?",
+    "doc": "BERT_paper01",
+    "gold_page": 7,
+    "type": "scanned",
+    "id": "q016",
+    "split": "dev"
+  },
+  {
+    "question": "On the reading comprehension benchmark that allows unanswerable questions, what dev exact-match score does the single large BERT model obtain?",
+    "doc": "BERT_paper01",
+    "gold_page": 7,
+    "type": "scanned",
+    "id": "q017",
+    "split": "test"
+  },
+  {
+    "question": "On the grounded commonsense continuation benchmark, what test accuracy is listed for humans using five annotations?",
+    "doc": "BERT_paper01",
+    "gold_page": 7,
+    "type": "scanned",
+    "id": "q018",
+    "split": "test"
+  },
+  {
+    "question": "In the pre-training ablation, what F1 on the span-extraction benchmark does the left-to-right model trained without the sentence-relationship task reach?",
+    "doc": "BERT_paper01",
+    "gold_page": 8,
+    "type": "scanned",
+    "id": "q019",
+    "split": "test"
+  },
+  {
+    "question": "How many parameters does the largest Transformer the authors found in earlier literature have?",
+    "doc": "BERT_paper01",
+    "gold_page": 8,
+    "type": "scanned",
+    "id": "q020",
+    "split": "test"
+  },
+  {
+    "question": "In the model-size comparison, what held-out masked LM perplexity does the 12-layer, 768-hidden configuration have?",
+    "doc": "BERT_paper01",
+    "gold_page": 9,
+    "type": "scanned",
+    "id": "q021",
+    "split": "dev"
+  },
+  {
+    "question": "Using frozen BERT as a feature extractor for named entity recognition, what dev F1 comes from joining the outputs of the top four layers?",
+    "doc": "BERT_paper01",
+    "gold_page": 9,
+    "type": "scanned",
+    "id": "q022",
+    "split": "test"
+  },
+  {
+    "question": "In earlier feature-based work, beyond which hidden dimension size did further increases stop bringing gains?",
+    "doc": "BERT_paper01",
+    "gold_page": 9,
+    "type": "scanned",
+    "id": "q023",
+    "split": "test"
+  },
+  {
+    "question": "In the drawing of fine-tuning on a sequence-tagging task, what tag is shown above the second token position?",
+    "doc": "BERT_paper01",
+    "gold_page": 15,
+    "type": "scanned",
+    "id": "q024",
+    "split": "test"
+  },
+  {
+    "question": "On the plot of accuracy against amount of pre-training, which of the two variants scores higher at the very first checkpoint?",
+    "doc": "BERT_paper01",
+    "gold_page": 16,
+    "type": "scanned",
+    "id": "q025",
+    "split": "test"
+  },
+  {
+    "question": "In the convolution-based translation models ConvS2S and ByteNet, how does the effort needed to relate two distant positions scale with the gap between them?",
+    "doc": "paper1",
+    "gold_page": 2,
+    "type": "text",
+    "id": "q026",
+    "split": "test"
+  },
+  {
+    "question": "In the architecture diagram, how is the target sequence given to the decoder described?",
+    "doc": "paper1",
+    "gold_page": 3,
+    "type": "chart",
+    "id": "q027",
+    "split": "test"
+  },
+  {
+    "question": "What parameter matrix is shared by both embedding layers and the transformation just before the final softmax?",
+    "doc": "paper1",
+    "gold_page": 5,
+    "type": "text",
+    "id": "q028",
+    "split": "test"
+  },
+  {
+    "question": "Roughly how many source tokens and target tokens made up each training batch?",
+    "doc": "paper1",
+    "gold_page": 7,
+    "type": "text",
+    "id": "q029",
+    "split": "test"
+  },
+  {
+    "question": "What BLEU score did the smaller Transformer configuration reach on English-to-French translation?",
+    "doc": "paper1",
+    "gold_page": 8,
+    "type": "table",
+    "id": "q030",
+    "split": "dev"
+  },
+  {
+    "question": "On the development set, what BLEU resulted from swapping the fixed sine-based position signal for learned position vectors?",
+    "doc": "paper1",
+    "gold_page": 9,
+    "type": "table",
+    "id": "q031",
+    "split": "test"
+  },
+  {
+    "question": "What F1 score did the four-layer Transformer get on constituency parsing when trained in the semi-supervised setting?",
+    "doc": "paper1",
+    "gold_page": 10,
+    "type": "table",
+    "id": "q032",
+    "split": "test"
+  },
+  {
+    "question": "In the encoder self-attention visualization for the sentence about American governments and voting, which distant words do many heads link to the verb 'making'?",
+    "doc": "paper1",
+    "gold_page": 13,
+    "type": "chart",
+    "id": "q033",
+    "split": "test"
+  },
+  {
+    "question": "What linguistic resolution task do the sharply focused heads tracking the word 'its' appear to be performing?",
+    "doc": "paper1",
+    "gold_page": 14,
+    "type": "chart",
+    "id": "q034",
+    "split": "dev"
+  },
+  {
+    "question": "In the isolated view of attention from 'its' in the sentence about a law never being perfect, which words receive its attention?",
+    "doc": "paper1",
+    "gold_page": 14,
+    "type": "chart",
+    "id": "q035",
+    "split": "test"
+  },
+  {
+    "question": "What proportion of the computational cost of VGG-19 is incurred by a 34-layer plain architecture?",
+    "doc": "paper2",
+    "gold_page": 3,
+    "type": "text",
+    "id": "q036",
+    "split": "test"
+  },
+  {
+    "question": "What is the top-5 error rate of the ensemble model on the ImageNet evaluation dataset?",
+    "doc": "paper2",
+    "gold_page": 1,
+    "type": "table",
+    "id": "q037",
+    "split": "test"
+  },
+  {
+    "question": "What is the top-1 failure percentage on the ImageNet test set for a 34-layer standard architecture in 10-crop testing?",
+    "doc": "paper2",
+    "gold_page": 5,
+    "type": "table",
+    "id": "q038",
+    "split": "test"
+  },
+  {
+    "question": "Across iterations, how does the training misclassification rate for an un-shortcutted 56-layer model compare to a 20-layer equivalent on CIFAR-10?",
+    "doc": "paper2",
+    "gold_page": 1,
+    "type": "chart",
+    "id": "q039",
+    "split": "test"
+  },
+  {
+    "question": "For a 152-layer architecture, how many repetitions are assigned to the second convolutional block group?",
+    "doc": "paper2",
+    "gold_page": 5,
+    "type": "table",
+    "id": "q040",
+    "split": "dev"
+  },
+  {
+    "question": "What relative increase in performance on the COCO object detection metric was gained from the proposed representations?",
+    "doc": "paper2",
+    "gold_page": 8,
+    "type": "text",
+    "id": "q041",
+    "split": "test"
+  },
+  {
+    "question": "What top-5 localization misclassification percentage is reached on the ImageNet validation dataset when using ground-truth labels alongside dense testing with ResNet-101?",
+    "doc": "paper2",
+    "gold_page": 12,
+    "type": "table",
+    "id": "q042",
+    "split": "test"
+  },
+  {
+    "question": "What is the exact percentage point boost in mean average precision achieved on PASCAL VOC 2007 by switching the base network from VGG-16 to ResNet-101?",
+    "doc": "paper2",
+    "gold_page": 11,
+    "type": "table",
+    "id": "q043",
+    "split": "test"
+  },
+  {
+    "question": "How do standard deviations of layer responses in residual frameworks generally compare in magnitude to un-shortcutted counterparts across network layers?",
+    "doc": "paper2",
+    "gold_page": 8,
+    "type": "chart",
+    "id": "q044",
+    "split": "test"
+  },
+  {
+    "question": "In the comparison of shortcut strategies on ImageNet validation, what top-1 error rate is achieved when all shortcuts utilize linear projections?",
+    "doc": "paper2",
+    "gold_page": 6,
+    "type": "table",
+    "id": "q045",
+    "split": "test"
+  },
+  {
+    "question": "For a 32-layer residual network evaluated on CIFAR-10, what total parameter count is required?",
+    "doc": "paper2",
+    "gold_page": 7,
+    "type": "table",
+    "id": "q046",
+    "split": "dev"
+  },
+  {
+    "question": "On the MS COCO validation set, what score is achieved by baseline Faster R-CNN with ResNet-101 under the mAP@[.5, .95] metric?",
+    "doc": "paper2",
+    "gold_page": 10,
+    "type": "table",
+    "id": "q047",
+    "split": "dev"
+  },
+  {
+    "question": "What was the overall valuation of the company in Indian Rupees during the 2022 financial period?",
+    "doc": "f_paper01",
+    "gold_page": 1,
+    "type": "table",
+    "id": "q048",
+    "split": "test"
+  },
+  {
+    "question": "What total sum in US dollars was generated from major agreement wins during fiscal 2025?",
+    "doc": "f_paper01",
+    "gold_page": 1,
+    "type": "chart",
+    "id": "q049",
+    "split": "dev"
+  },
+  {
+    "question": "How much bottom-line earnings per equity unit in USD was reported for fiscal 2024?",
+    "doc": "f_paper01",
+    "gold_page": 1,
+    "type": "table",
+    "id": "q050",
+    "split": "test"
+  },
+  {
+    "question": "What was the total volume of liquid assets and investments held in Indian currency for FY 2025?",
+    "doc": "f_paper01",
+    "gold_page": 1,
+    "type": "chart",
+    "id": "q051",
+    "split": "test"
+  },
+  {
+    "question": "What was the bottom-line earnings figure reported in US currency for fiscal 2021?",
+    "doc": "f_paper01",
+    "gold_page": 1,
+    "type": "table",
+    "id": "q052",
+    "split": "test"
+  },
+  {
+    "question": "What proportion of overall sales was spent on promotional and sales activities in the period ending March 31, 2025?",
+    "doc": "f_paper02",
+    "gold_page": 1,
+    "type": "table",
+    "id": "q053",
+    "split": "test"
+  },
+  {
+    "question": "What multiple of annual operating earnings was the market capitalization price assigned for the period ending March 31, 2024?",
+    "doc": "f_paper02",
+    "gold_page": 2,
+    "type": "chart",
+    "id": "q054",
+    "split": "test"
+  },
+  {
+    "question": "How many total team members were categorized as software development professionals at the close of fiscal 2024?",
+    "doc": "f_paper02",
+    "gold_page": 3,
+    "type": "table",
+    "id": "q055",
+    "split": "test"
+  },
+  {
+    "question": "What amount was allocated toward capital asset investments in fiscal year 2020?",
+    "doc": "f_paper02",
+    "gold_page": 4,
+    "type": "table",
+    "id": "q056",
+    "split": "test"
+  },
+  {
+    "question": "How many total equity units were traded across both major Indian exchanges during the month of February 2025?",
+    "doc": "f_paper02",
+    "gold_page": 5,
+    "type": "table",
+    "id": "q057",
+    "split": "test"
+  },
+  {
+    "question": "What percentage of total voting power is possessed by Mutual Fund entities?",
+    "doc": "f_paper02",
+    "gold_page": 6,
+    "type": "table",
+    "id": "q058",
+    "split": "test"
+  },
+  {
+    "question": "For what reason were the organization's depositary instruments removed from trading on European stock markets in mid-2018?",
+    "doc": "f_paper02",
+    "gold_page": 7,
+    "type": "text",
+    "id": "q059",
+    "split": "test"
+  },
+  {
+    "question": "What total quantity of American Depositary Shares changed hands on the New York exchange during January 2025?",
+    "doc": "f_paper02",
+    "gold_page": 7,
+    "type": "chart",
+    "id": "q060",
+    "split": "test"
+  }
+]

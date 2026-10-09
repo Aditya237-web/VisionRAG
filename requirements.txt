@@ -1,0 +1,41 @@
+﻿# Core
+torch==2.12.1
+torchvision
+transformers==5.18.0
+accelerate
+safetensors==0.8.0
+
+# ColPali
+colpali-engine==0.3.18
+einops==0.8.1
+
+# PDF & Images
+pymupdf==1.25.4
+pillow==11.2.1
+
+# Text retrieval
+sentence-transformers==6.1.0
+faiss-cpu==1.12.0
+
+# Generator
+ollama==0.4.7
+
+# Config & Utils
+pyyaml==6.0.3
+tqdm==4.67.1
+
+# Evaluation
+scikit-learn==1.7.1
+matplotlib==3.10.1
+pandas==2.3.1
+
+# UI
+streamlit==1.55.0
+
+# Testing
+pytest==8.3.5
+pytest-cov==6.0.0
+
+# Colab notebook (optional)
+jupyter==1.1.1
+ipykernel==6.29.5

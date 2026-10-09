@@ -1,0 +1,44 @@
+﻿# VisionRAG Configuration
+paths:
+  pdf_dir: "data/pdfs"
+  pages_dir: "data/pages"
+  index_dir: "data/index"
+  eval_dir: "data/eval"
+
+ingest:
+  dpi: 130
+  image_format: "png"
+
+retriever_visual:
+  model_name: "vidore/colSmol-256M"
+  batch_size: 1
+  device: "auto"
+  max_length: 512
+  use_local_patches_only: false
+
+retriever_text:
+  embedder_name: "BAAI/bge-small-en-v1.5"
+  chunk_size: 500
+  chunk_overlap: 50
+  batch_size: 16
+  device: "auto"
+  query_prefix: "Represent this sentence for searching relevant passages: "
+
+generator:
+  model_name: "qwen2.5vl:3b"
+  host: "http://localhost:11434"
+  max_image_size: 1024
+  num_ctx: 4096
+  timeout_seconds: 300
+  keep_alive: "5m"
+  temperature: 0.1
+  top_p: 0.9
+  generation_k: 2
+
+pipeline:
+  default_retriever: "visual"
+  top_k: 3
+
+eval:
+  questions_file: "questions.json"
+  results_file: "results.json"
